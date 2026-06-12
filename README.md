@@ -1,7 +1,16 @@
 # 🧬 Parkinson's Disease Detection — ML Classification Study
+---
 
-> *Can a person's voice tell us if they have Parkinson's? Turns out, it can.*
+## ⚡ Project Summary
 
+- 📁 **Dataset** — 195 voice recordings from the UCI ML Repository, 22 vocal features
+- 🧹 **Cleaned & preprocessed** — removed irrelevant columns, handled class imbalance using SMOTE
+- 📊 **Explored the data** — correlation heatmaps, box plots, class distribution analysis
+- ⚖️ **Balanced classes** — 147 Parkinson's vs 48 healthy patients, fixed with SMOTE oversampling
+- 🔢 **Scaled features** — normalised all values to -1 to 1 using MinMaxScaler
+- 🤖 **Trained 7 models** — Decision Tree, Random Forest, Logistic Regression, SVM, Naive Bayes, KNN, XGBoost
+- 🧪 **Tested with & without PCA** — PCA hurt performance on this small dataset, so it was dropped
+- 🏆 **Best model** — XGBoost with 94%+ accuracy, evaluated on Accuracy, Precision, Recall, F1 & ROC-AUC
 ---
 
 ## 📌 Overview
